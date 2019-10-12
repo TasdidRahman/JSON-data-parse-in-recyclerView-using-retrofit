@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Id"
+        android:id="@+id/textView_id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team one name"
+        android:layout_below="@+id/textView_id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/textView_t1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team two name"
+        android:layout_below="@+id/textView_t1"
+        android:id="@+id/textView_t2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+</RelativeLayout>
