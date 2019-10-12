@@ -1,5 +1,6 @@
 package com.powerflee.bplpowerscore.model;
 
+//gson for serialize JSON to java objects
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 public class MyTeam {
